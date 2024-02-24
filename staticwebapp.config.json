@@ -1,0 +1,11 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "globalHeaders": {
+    "X-Frame-Options": "SAMEORIGIN",
+    "Permissions-Policy": "autoplay=(self), camera=(self), cross-origin-isolated=(self), display-capture=(self), fullscreen=(self), geolocation=(self), keyboard-map=(self), microphone=(self), picture-in-picture=(self), screen-wake-lock=(self), web-share=(self), clipboard-read=(self), clipboard-write=(self)",
+    "Cross-Origin-Embedder-Policy": "require-corp; report-to='default'",
+    "Cross-Origin-Opener-Policy": "same-origin-allow-popups; report-to='default'"
+  }
+}

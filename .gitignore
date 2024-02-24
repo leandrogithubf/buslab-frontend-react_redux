@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+.php_cs.cache
+.vscode
+
+mock

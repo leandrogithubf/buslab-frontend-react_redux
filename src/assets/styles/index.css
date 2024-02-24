@@ -1,0 +1,332 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@import "tailwindcss/utilities";
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Cabin";
+    src: url("../fonts/cabin/Cabin-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Open-sans";
+    src: url("../fonts/open-sans/OpenSans-Regular.ttf") format("truetype");
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+.open-sans {
+    font-family: "Open-sans";
+}
+
+.cabin {
+    font-family: "Cabin";
+}
+
+.ignoreSideMenu {
+    margin-left: 64px;
+}
+
+:root {
+    --global-color-botao: #202c89;
+    --global-color-buslab: #202f90;
+    --global-color-azul: #305aab;
+    --global-color-vermelho: #e65250;
+    --global-color-esmeralda: #2fb5b1;
+    --global-color-laranja: #fa9b6c;
+    --global-color-verde: #84d193;
+    --global-color-amarelo: #ffd068;
+    --global-color-c1: #f7f7f7;
+    --global-color-c2: #f2f2f2;
+    --global-color-c3: #ebebeb;
+    --global-color-c4: #d9d9d9;
+    --global-color-c5: #a6a6a6;
+    --global-color-c6: #737373;
+    --global-color-c7: #404040;
+    --global-color-c8: #6d6d6d;
+    --global-color-placeholder: #404040;
+    --global-color-close: #707070;
+}
+
+.color-close {
+    color: var(--global-color-close);
+}
+
+h1 {
+    color: var(--global-color-c7);
+    font-size: 33px;
+}
+
+h2 {
+    color: var(--global-color-c7);
+    font-size: 24px;
+}
+
+h3 {
+    color: var(--global-color-c7);
+    font-size: 22px;
+}
+
+h4 {
+    color: var(--global-color-c7);
+    font-size: 18px;
+    font-family: roboto;
+}
+
+h5 {
+    color: var(--global-color-c7);
+    font-size: 16px;
+}
+
+h6 {
+    color: var(--global-color-c7);
+    font-size: 14px;
+}
+
+p {
+    color: var(--global-color-c7);
+    font-size: 14px;
+}
+
+th {
+    line-height: 1.1;
+}
+
+.text-c2 {
+    color: var(--global-color-c2);
+    font-size: 14px;
+}
+
+.text-c5 {
+    color: var(--global-color-c5);
+    font-size: 14px;
+}
+
+.text-10 {
+    font-size: 10px;
+}
+
+.text-12 {
+    font-size: 12px;
+}
+
+.text-14 {
+    font-size: 14px;
+}
+
+.text-18 {
+    font-size: 18px;
+}
+
+.text-c7-14 {
+    color: var(--global-color-c7);
+    font-size: 14px;
+}
+
+.text-c7-15 {
+    color: var(--global-color-c7);
+    font-size: 15px;
+}
+
+.text-c7-16 {
+    color: var(--global-color-c7);
+    font-size: 16px;
+}
+
+.text-c7-18 {
+    color: var(--global-color-c7);
+    font-size: 18px;
+}
+
+.text-c7-22 {
+    color: var(--global-color-c7);
+    font-size: 22px;
+}
+
+.text-c8 {
+    color: var(--global-color-c8);
+}
+
+.text-buslab {
+    color: var(--global-color-buslab);
+}
+
+.text-azul {
+    color: var(--global-color-azul);
+    font-size: 14px;
+}
+
+::placeholder :-ms-input-placeholder ::-webkit-input-placeholder {
+    color: var(--global-color-c7);
+}
+
+.bg-buslab {
+    background-color: var(--global-color-buslab);
+}
+
+.bg-c1 {
+    background-color: var(--global-color-c1);
+}
+
+.bg-c2 {
+    background-color: var(--global-color-c2);
+}
+
+.bg-b1 {
+    background-color: #fff1ea;
+}
+
+.bg-b2 {
+    background-color: #fce6e6;
+}
+
+.bg-c3 {
+    background-color: var(--global-color-c3);
+}
+
+.bg-c4 {
+    background-color: var(--global-color-c4);
+}
+
+.bg-c5 {
+    background-color: var(--global-color-c5);
+}
+
+.bg-c6 {
+    background-color: var(--global-color-c6);
+}
+
+.bg-esmeralda {
+    background-color: var(--global-color-esmeralda);
+}
+
+.bg-laranja {
+    background-color: var(--global-color-laranja);
+}
+
+.bg-amarelo {
+    background-color: var(--global-color-amarelo);
+}
+
+.bg-vermelho {
+    background-color: var(--global-color-vermelho);
+}
+
+.bg-verde {
+    background-color: var(--global-color-verde);
+}
+
+.bg-azul {
+    background-color: var(--global-color-azul);
+}
+
+.border-buslab {
+    border-color: var(--global-color-buslab);
+}
+
+.mb-n-6 {
+    margin-bottom: -1.5rem;
+}
+
+.scroll-box {
+    overflow-y: scroll;
+    height: 350px;
+}
+
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: var(--global-color-c2);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--global-color-c4);
+    border-radius: 23px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--global-color-c4);
+}
+
+.DatePicker {
+    width: 100%;
+}
+
+.react-datepicker-wrapper {
+    width: 100% !important;
+}
+
+.Calendar__day.-weekend:not(.-selected):not(.-blank):not(.-selectedStart):not(.-selectedEnd):not(.-selectedBetween) {
+    color: var(--global-color-buslab) !important;
+}
+
+.g-recaptcha > div > div {
+    margin: 4px auto !important;
+    text-align: center;
+    height: auto !important;
+}
+
+.leaflet-container {
+    height: 500px;
+    width: 100%;
+    z-index: 1;
+}
+
+.sr-only {
+    display: none;
+}
+
+.scheduled-trips-label {
+    position: absolute;
+    margin-left: 50px;
+}
+
+.scheduled-trips-label.today {
+    margin-top: 15px;
+}
+
+.scheduled-trips-label.yesterday {
+    margin-top: 85px;
+}
+
+.scheduled-trips-label.week {
+    margin-top: 150px;
+}
+
+.scheduled-trips-label.month {
+    margin-top: 220px;
+}
+
+.modal-captcha {
+    background-color: rgba(0, 0, 0, 0.561);
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100000;
+    display: flex;
+}
+
+.captcha {
+    background-color: white;
+    top: 50%;
+    transform: translate(0, -50%);
+}

@@ -1,0 +1,54 @@
+.topMenuBar {
+    background-color: var(--global-color-botao);
+    height: 50px;
+}
+.wrapper-dropdown-menu {
+    position: absolute;
+    right: 40px;
+    width: auto;
+    background-color: var(--global-color-c2);
+    animation: appear 0.5s;
+}
+
+.wrapper-dropdown-notifications {
+    position: absolute;
+    right: 20px;
+    animation: appear 0.5s;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.box-notifications {
+    height: 75px;
+    width: 335px;
+    border-radius: 4px;
+    background-color: var(--global-color-c2);
+}
+.checked-notifications {
+    background-color: var(--global-color-buslab);
+    border-radius: 4px 0px 4px 4px;
+    width: 30px;
+    height: 75px;
+}
+.iconClose {
+    font-size: 20px;
+    color: var(--global-color-close);
+}
+.iconChecked {
+    font-size: 13px;
+    color: var(--global-color-c2);
+}
+.fontMenu {
+    font-size: 13px;
+}
+.unselect {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10+ and Edge */
+    user-select: none; /* Standard syntax */
+}
